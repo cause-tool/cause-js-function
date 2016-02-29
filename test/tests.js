@@ -4,8 +4,8 @@ const assert = require('assert');
 const block = require('../');
 
 
-describe('block', function() {
-	it('should call the function', function() {
+describe('block', () => {
+	it('should call the function', () => {
 		function f(cb) {
 			output = 'success';
 			decision = true;
@@ -20,7 +20,7 @@ describe('block', function() {
 		block.main(null, null, config, 'input', done);
 	});
 
-	it('should catch errors', function() {
+	it('should catch errors', () => {
 		function done(err, output, decision) {
 			assert(!!err);
 		}
