@@ -1,0 +1,26 @@
+{
+  "name": "cause-js-function",
+  "version": "0.0.0",
+  "description": "runs a javascript function",
+  "main": "index.js",
+  "license": "CC-BY-NC-SA-4.0",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "freder.code@gmail.com",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freder/cause-js-function.git"
+  },
+  "keywords": [
+    "cause",
+    "cause-block",
+    "function"
+  ],
+  "bugs": {
+    "url": "https://github.com/freder/cause-js-function/issues"
+  },
+  "homepage": "https://github.com/freder/cause-js-function"
+}
